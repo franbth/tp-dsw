@@ -1,0 +1,33 @@
+### obtener todos los usuarios
+
+GET  http://localhost:3000/api/users
+
+### obtener un usuario
+GET http://localhost:3000/api/users/6a39f69b-7d6a-4b24-b712-b323b110788c
+
+### crear un nuevo usuario
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+  "name": "Lionel Messi",
+  "address": "Las Heras",
+  "phoneNumber": "341233445",
+  "cp": "2000",
+  "email": "lionelMessi@gmail.com"
+}
+
+### modificar un nuevo usuario (PUT - modifica el recurso completo e idempotente)
+PUT http://localhost:3000/api/users/d3869629-19e1-4d90-bc8d-c90c03d9867d
+Content-Type: application/json
+
+{
+  "name": "Francisco Jose Buthet",
+  "address": "Montevideo 749 depto. 3",
+  "phoneNumber": "3416834800",
+  "cp": "2000",
+  "email": "franciscobuthet@gmail.com"
+}
+
+### borrar un usuario
+DELETE http://localhost:3000/api/users/d3869629-19e1-4d90-bc8d-c90c03d9867d
