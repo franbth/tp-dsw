@@ -6,5 +6,5 @@ export class User{
   public phoneNumber:string,
   public cp:string,
   public email:string,
-  public id= crypto.randomUUID() ){}
+  public userID= crypto.randomUUID() ){}
 }
