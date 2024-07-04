@@ -1,5 +1,4 @@
 import { User } from "./user.entity.js";
-
 const users = [
     new User('Francisco Buthet', 'Montevideo 749', '3416834800', '2000', 'franciscobuthet@gmail.com'),
     new User('Alejo Passe', 'Pellegrini y Francia', '3476651208', '2000', 'passealejo@gmail.com')
