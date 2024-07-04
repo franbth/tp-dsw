@@ -16,7 +16,7 @@ Nuestra sitio web tiene como objetivo conectar a los usuarios con profesionales 
 
 ### Modelo
 
-![Modelo](/modeloDSW.png)
+![Modelo]((https://github.com/franbth/tp-dsw/blob/master/modeloDSW.png))
 
 ## Alcance Funcional
 
